@@ -1,0 +1,104 @@
+.container{
+    width: 80%;
+    margin: auto;
+    text-transform: capitalize;
+    }
+    
+    caption{
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 30px;
+      margin: 10px;
+      font-weight: 700;
+    }
+    
+    table{
+      width: 100%;
+       
+    }
+    table,th,td{
+        border-bottom: 1px solid lightgray;
+        border-collapse: collapse;
+        padding: 10px;
+    } 
+    
+    th{
+      background-color: dodgerblue;
+      color: white;
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 20px;
+    }
+    
+    td{
+      text-align: center;
+      font-size: 18px;
+    }
+    
+    tr:nth-child(even){
+    background-color: whitesmoke;
+    }
+    tr:hover{
+      background-color: lightgray;
+    }
+    
+    /* the grade section */
+    
+    .excel{
+      background-color: navy;
+      color: white;
+      padding: 6px;
+      border-radius: 7px;
+    }
+    .very{
+      background-color: rgb(58, 94, 5);
+      color: white;
+      padding: 6px;
+      border-radius: 7px;
+    }
+    .good{
+      background-color: green;
+      color: white;
+      padding: 6px;
+      border-radius: 7px;
+    }
+    
+    .average{
+      background-color: orange;
+      color: white;
+      padding: 6px;
+      border-radius: 7px;
+    }
+    
+    .fail{
+      background-color: red;
+      color: white;
+      padding: 6px;
+      border-radius: 7px;
+    }
+    
+    /* my icon styling */
+    
+    .pass{
+      background-color: navy;
+      color: white;
+      padding:1px 2px;
+    }
+    .pass1{
+      background-color: green;
+      color: white;
+      padding:1px 2px;
+    }
+    .pass2{
+      background-color: orange;
+      color: white;
+      padding:1px 2px;
+    }
+    .pass3{
+      background-color: rgb(58, 94, 5);
+      color: white;
+      padding:1px 2px;
+    }
+    .failure{
+      background-color: red;
+      color: white;
+      padding:1px 2px;
+    }
